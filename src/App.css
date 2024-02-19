@@ -1,0 +1,24 @@
+.accordion-item{
+    outline: none !important;
+    border-radius: 10px !important;
+}
+.accordion-button:focus {
+    z-index: 3;
+    border-color: transparent;
+    outline: none !important;
+    box-shadow: var(--bs-accordion-btn-focus-box-shadow);
+}
+.accordion-button:not(.collapsed) {
+    color:orangered;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    border: 1px solid rgba(128, 128, 128, 0.438);
+}
+.accordion-button:not(.collapsed) h5{
+    color: var(--Primary, #ff782d);
+    border-color: transparent !important;
+}
+.navbar {
+    margin: 0.25rem 0 ;
+    padding: 0 !important;
+}

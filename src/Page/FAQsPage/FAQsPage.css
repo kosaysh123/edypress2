@@ -1,0 +1,44 @@
+.KA-counter{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    }
+    .KA-text{
+          width: 1290px;
+          height: 43px;
+    font-family: Exo;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+        
+    }
+    .KA-FAQS-img{
+          width: 100px;
+    height: 317.01px;
+    gap: 10px;
+    
+    }
+    .KA-FAQS-img1{
+          width: 556px;
+    height: 317.01px;
+    color: linear-gradient(0deg, #000000, #000000),
+    linear-gradient(0deg, #6283F4, #6283F4),
+    linear-gradient(0deg, #67A4C3, #67A4C3),
+    linear-gradient(0deg, #699FCE, #699FCE),
+    linear-gradient(0deg, #74A6D2, #74A6D2),
+    linear-gradient(0deg, #96BCDD, #96BCDD),
+    linear-gradient(0deg, #AF78FA, #AF78FA),
+    linear-gradient(0deg, #CBE1F8, #CBE1F8),
+    linear-gradient(0deg, #EDF5FD, #EDF5FD),
+    linear-gradient(0deg, #F5865E, #F5865E),
+    linear-gradient(0deg, #F59776, #F59776),
+    linear-gradient(0deg, #FCB9A4, #FCB9A4),
+    linear-gradient(0deg, #FE554E, #FE554E),
+    linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    
+    }

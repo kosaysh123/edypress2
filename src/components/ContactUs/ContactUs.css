@@ -1,0 +1,153 @@
+.ko-LeaveAComment-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.875rem;
+  }
+  .ko-LeaveACommente{
+    width: 100%;
+  }
+  .ko-top-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+    align-self: stretch;
+  }
+  
+  .ko-top-heading-h4 {
+    color: var(--Black, #000);
+  
+    /* H4 */
+    font-family: Exo;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    /* 1.5rem */
+    text-transform: capitalize;
+  }
+  
+  .ko-top-heading-p {
+    color: var(--Dark_gray, #555);
+  
+    /* P */
+    font-family: Jost;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 1.6875rem */
+  }
+  
+  .ko-form-comment {
+    display: flex;
+    /* width: 53.125rem; */
+    width: 100%;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-direction: column;
+    gap: 1.25rem;
+    flex-wrap: wrap;
+  }
+  
+  .ko-form-said1 {
+    /* flex-wrap: wrap; */
+    width: 100%;
+    /* gap: 1.25rem; */
+  }
+  
+  .ko-form-said1-text {
+    width: 47%;
+    margin-right: 1.25rem;
+    /* display: flex; */
+    /* height: 3rem; */
+    padding: 0.625rem 1rem;
+    /* justify-content: center; */
+    /* align-items: center; */
+    gap: 0.625rem;
+    /* flex: 1 0 0; */
+    border-radius: 0.5rem;
+    border: 1px solid var(--Grey, #9d9d9d);
+  }
+  
+  .ko-form-said1-email {
+    width: 47%;
+    /* display: flex; */
+    /* height: 3rem; */
+    padding: 0.625rem 1rem;
+    /* justify-content: center; */
+    /* align-items: center; */
+    gap: 0.625rem;
+    flex: 1 0 0;
+    border-radius: 0.5rem;
+    border: 1px solid var(--Grey, #9d9d9d);
+  }
+  
+  @media (max-width: 992px) {
+    .ko-form-said1 {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .ko-form-said1-email,
+    .ko-form-said1-text {
+      width: 100%;
+      margin-bottom: 1.85rem;
+    }
+    .ko-comment-textarea{
+      width: 100% !important;
+    }
+  }
+  
+  .ko-form-said1-email::placeholder,
+  .ko-form-said1-text::placeholder,
+  .ko-comment-textarea::placeholder {
+    color: var(--Grey, #9d9d9d);
+  
+    /* P */
+    font-family: Jost;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 1.6875rem */
+  }
+  
+  .ko-comment-textarea {
+    display: flex;
+  width: 95.8%;
+  height: 6.875rem;
+  padding: 0.625rem 1rem;
+  align-items: flex-start;
+  gap: 0.625rem;
+  flex-shrink: 0;
+  border-radius: 0.5rem;
+  border: 1px solid var(--Grey, #9D9D9D);
+  outline: none;
+  resize: none;
+  }
+  .ko-form-check{
+    display: flex;
+  /* width: 53.125rem; */
+  align-items: center;
+  gap: 0.25rem;
+  flex-shrink: 0;
+  align-items: center;
+  }
+  .ko-form-check-p{
+    color: var(--Dark_gray, #555);
+  /* P */
+  font-family: Jost;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 1.6875rem */
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+  }
+  .ko-form-check-checkbox{
+    width: 1.1rem;
+    height: 1.1rem;
+    cursor: pointer;
+  }

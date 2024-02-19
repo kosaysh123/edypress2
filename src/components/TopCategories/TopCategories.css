@@ -1,0 +1,300 @@
+@media(max-width:500px){
+    .ko-head-main-page{
+        flex-direction: column;
+    }
+}
+.ko-head-main-page{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 5px;
+}
+.row1{
+    display: flex;
+    /* width: 80.625rem; */
+    justify-content: center;
+    align-items: flex-end;
+    align-content: flex-end;
+    gap: 2.875rem;
+    flex-wrap: wrap;
+}
+.ko-text-head-main-page-p{
+    font-family:Jost;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #555555;
+}
+.ko-text-head-main-page-h2{
+    font-family:Exo;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38.4px;
+}
+.ko-button-head-main{
+    width: 161px;
+    height: 48px;
+    padding: 10px 24px 10px 24px;
+    border: 2px solid #9D9D9D;
+    border-radius: 24px;
+}
+.ko-button-head-main-a{
+    font-family: Jost;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-decoration: none;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ka-Top-Categories{
+    /* display: flex; */
+}
+.ka-Top-Categories-card-1{
+    display: flex;
+width: 14.625rem;
+height: 14.625rem;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 1.5rem;
+flex-shrink: 0;
+border-radius: 1.25rem;
+border: 1px solid var(--Light_grey, #EAEAEA);
+}
+.ka-row1-col-1-card-1{
+    display: flex;
+flex-direction: column;
+align-items: center;
+gap: 0.75rem;
+}
+.ka-row1-col-1-card-1-h4{
+    color: var(--Black, #000);
+
+
+font-family: Exo;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 600;
+line-height: 120%; 
+text-transform: capitalize;
+}
+.ka-row1-col-1-card-1-p{
+    color: var(--Dark_gray, #555);
+
+
+font-family: Jost;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; 
+}
+.ka-Top-Categories-card-2{
+    display: flex;
+width: 14.625rem;
+height: 14.625rem;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 1.5rem;
+border-radius: 1.25rem;
+border: 1px solid var(--Light_grey, #EAEAEA);
+background: var(--White, #FFF);
+}
+.ka-row1-col-2-card-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+}
+.ka-row1-col-2-card-2-h4{
+    color: var(--Primary, #FF782D);
+
+font-family: Exo;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 600;
+line-height: 120%; 
+text-transform: capitalize;
+}
+.ka-row1-col-2-card-2-p{
+    color: var(--Dark_gray, #555);
+
+
+font-family: Jost;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; 
+}
+.ka-Top-Categories-card-3 {
+    display: flex;
+width: 14.625rem;
+height: 14.625rem;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 1.5rem;
+flex-shrink: 0;
+border-radius: 1.25rem;
+border: 1px solid var(--Light_grey, #EAEAEA);
+}
+.ka-row1-col-3-card-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+}
+.ka-row1-col-3-card-3-h4{
+    color: var(--Black, #000);
+
+  
+    font-family: Exo;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; 
+    text-transform: capitalize;
+}
+.ka-row1-col-3-card-3-p{
+    color: var(--Dark_gray, #555);
+
+  
+    font-family: Jost;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;  
+}
+.ka-Top-Categories-card-4{
+    display: flex;
+width: 14.625rem;
+height: 14.625rem;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 1.5rem;
+flex-shrink: 0;
+border-radius: 1.25rem;
+border: 1px solid var(--Light_grey, #EAEAEA);
+}
+.ka-row1-col-4-card-4{
+    display: flex;
+flex-direction: column;
+align-items: center;
+gap: 0.75rem;
+}
+.ka-row1-col-4-card-4-h4{
+    color: var(--Black, #000);
+
+font-family: Exo;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 600;
+line-height: 120%; 
+text-transform: capitalize;
+}
+.ka-row1-col-4-card-4-p{
+    color: var(--Dark_gray, #555);
+
+
+font-family: Jost;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; 
+}
+.ka-Top-Categories-card-5 {
+    display: flex;
+    width: 14.625rem;
+    height: 14.625rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    flex-shrink: 0;
+    border-radius: 1.25rem;
+border: 1px solid var(--Light_grey, #EAEAEA);
+}
+.ka-row1-col-5-card-5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+}
+.ka-row1-col-5-card-5-h4{
+    color: var(--Black, #000);
+
+  
+    font-family: Exo;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; 
+    text-transform: capitalize;
+}
+.ka-row1-col-5-card-5-p{
+    color: var(--Dark_gray, #555);
+
+ 
+    font-family: Jost;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+}
+.ka-Top-Categories-card-6,
+.ka-Top-Categories-card-7 ,
+.ka-Top-Categories-card-8,
+.ka-Top-Categories-card-9,
+.ka-Top-Categories-card-10{
+    display: flex;
+width: 14.625rem;
+height: 14.625rem;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 1.5rem;
+flex-shrink: 0;
+border-radius: 1.25rem;
+border: 1px solid var(--Light_grey, #EAEAEA);
+}
+.ka-row-2-col-1-card-6,
+.ka-row-2-col-2-card-7,
+.ka-row-2-col-3-card-8,
+.ka-row-2-col-4-card-9,
+.ka-row-2-col-5-card-10{
+
+
+    display: flex;
+flex-direction: column;
+align-items: center;
+gap: 0.75rem;
+}
+.ka-row-2-col-1-card-6-h4,
+.ka-row-2-col-2-card-7-h4,
+.ka-row-2-col-3-card-8-h4,
+.ka-row-2-col-4-card-9-h4,
+.ka-row-2-col-5-card-10-h4{
+    color: var(--Black, #000);
+font-family: Exo;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 600;
+line-height: 120%; 
+text-transform: capitalize;
+}
+.ka-row-2-col-1-card-6-p,
+.ka-row-2-col-2-card-7-p,
+.ka-row1-col-3-card-8-p,
+.ka-row-2-col-4-card-9-p,
+.ka-row-2-col-5-card-10-p{
+    color: var(--Dark_gray, #555);
+font-family: Jost;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; 
+}

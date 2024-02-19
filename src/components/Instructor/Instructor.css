@@ -1,0 +1,109 @@
+
+.ka-countener{
+    display: flex;
+/* width: 53.125rem; */
+padding: 1.875rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 1.25rem;
+border-radius: 0rem 0rem 1.25rem 1.25rem;
+background: var(--White_grey, #F5F5F5);
+}
+.ka-Instructor{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 1.25rem;
+align-self: stretch;
+}
+.ka-Instructor-top{
+    display: flex;
+align-items: flex-start;
+gap: 1.5rem;
+align-self: stretch;
+}
+.ka-Instructor-left{
+    display: flex;
+width: 11.25rem;
+height: 11.25rem;
+padding: 0.625rem;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 0.625rem;
+border-radius: 1.25rem;
+background: #E64C51;
+}
+.ka-Instructor-right{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.75rem;
+flex: 1 0 0;
+}
+.ka-Instructor-right-h1{
+    color: var(--Black, #000);
+
+/* Heading/h4 */
+font-family: Exo;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 600;
+line-height: 120%; /* 1.5rem */
+text-transform: capitalize;
+}
+.ka-Instructor-right-p{
+    color: var(--Dark_gray, #555);
+
+/* P */
+font-family: Jost;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 1.6875rem */
+}
+.ka-Instructor-right-div-1{
+    display: flex;
+align-items: center;
+gap: 0.5rem;
+}
+.ka-Instructor-right-p{
+    color: var(--Dark_gray, #555);
+
+/* P2 */
+font-family: Jost;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 1.5rem */
+}
+.ka-Instructor-body-p{
+    
+    color: var(--Dark_gray, #555);
+
+/* P */
+font-family: Jost;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 1.6875rem */
+}
+.ka-Instructor-body-social{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.75rem; 
+    flex-wrap: wrap;
+}
+.ka-Instructor-body-socia-2{
+    display: flex;
+align-items: flex-start;
+gap: 0.75rem;
+}
+@media(max-width:700px){
+.ka-Instructor-top{
+    flex-direction: column;
+    align-items: center;
+}
+}
+

@@ -1,0 +1,8 @@
+.ko-home-page{
+    display: flex;
+padding-bottom: 5.625rem;
+flex-direction: column;
+align-items: center;
+gap: 5.625rem;
+overflow: hidden;
+}

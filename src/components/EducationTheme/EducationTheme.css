@@ -1,0 +1,174 @@
+.ko-EducationTheme{
+overflow: hidden;
+width: 100%;
+}
+.ko-EducationTheme .ko-left-contant{
+left: 0;
+top: 0;
+
+}
+.ko-EducationTheme .ko-main-text-center{
+   
+    height: 18.75rem;
+    flex-shrink: 0;
+    border-radius: 1.25rem;
+background: linear-gradient(93deg, #FEB6B6 0%, #B7E1FF 100%);
+position: relative;
+overflow: hidden;
+
+}
+.ko-EducationTheme .ko-rigth-contant{
+right: 0;
+top:0;
+}
+.ko-EducationTheme .ko-left-contant-img1{
+    position: absolute;
+    width: 16.41369rem;
+    height: 8.35606rem;
+    transform: rotate(30deg);
+    flex-shrink: 0;
+    border-radius: 1.25rem;
+/* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
+left:  0rem;
+top:  0rem;
+}
+.ko-EducationTheme .ko-left-contant-img2{
+    position: absolute;
+    width: 18.76238rem;
+    height: 9.535rem;
+    transform: rotate(30deg);
+    flex-shrink: 0;
+    border-radius: 1.25rem;
+/* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
+left: -5rem;
+top: 9rem;
+}
+.ko-EducationTheme .ko-left-contant-img3{
+    position: absolute;
+    width: 16.41369rem;
+    height: 8.35606rem;
+    transform: rotate(30deg);
+    flex-shrink: 0;
+    border-radius: 1.25rem;
+/* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
+left: 3rem;
+top: 5rem;
+}
+.ko-main-text-center-h5{
+    margin-top: 3.25rem;
+    color: var(--Black, #000);
+    text-align: center;
+    margin-bottom: 0.75rem;
+    /* Heading/h5 */
+    font-family: Exo;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 1.2rem */
+    text-transform: capitalize;
+}
+.ko-main-text-center-h2{
+    color: var(--Black, #000);
+    text-align: center;
+    margin-bottom: 1.5rem;
+    /* H2 */
+    font-family: Exo;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 2.4rem */
+    text-transform: capitalize;
+}
+.ko-main-text-center-p{
+    color: var(--Dark_gray, #555);
+    text-align: center;
+    margin-bottom: 1.25rem;
+    /* P */
+    font-family: Jost;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 1.6875rem */
+}
+.ko-main-buttom-page-update{
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+}
+.ko-rigth-contant-img4{
+    position: absolute;
+    width: 16.04238rem;
+height: 8.14988rem;
+transform: rotate(30deg);
+flex-shrink: 0;
+border-radius: 1.25rem;
+/* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
+top: 9rem;
+right: -9rem;
+}
+.ko-rigth-contant-img5{
+    position: absolute;
+    width: 16.10488rem;
+    height: 8.20688rem;
+    transform: rotate(30deg);
+    flex-shrink: 0;
+    border-radius: 1.25rem;
+/* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
+top: -1rem;
+right: 5rem;
+}
+.ko-rigth-contant-img6{
+position: absolute;
+width: 18.75706rem;
+height: 9.5375rem;
+transform: rotate(30deg);
+flex-shrink: 0;
+border-radius: 1.25rem;
+/* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
+right: 3rem;
+top: 7.56rem;
+}
+@media (max-width:992px){
+    .ko-rigth-contant{
+        display: none;
+    }
+    .ko-left-contant{
+        display: none;
+    }
+    .ko-left-contant-img1,
+    .ko-left-contant-img2,
+    .ko-left-contant-img3,
+    .ko-rigth-contant-img4,
+    .ko-rigth-contant-img5,
+    .ko-rigth-contant-img6{
+        opacity: 0.2;
+    }
+
+}
+@media (max-width:360px){
+    .ko-rigth-contant{
+        display: none;
+    }
+    .ko-left-contant{
+        display: none;
+    }
+    .ko-left-contant-img1,
+    .ko-left-contant-img2,
+    .ko-left-contant-img3,
+    .ko-rigth-contant-img4,
+    .ko-rigth-contant-img5,
+    .ko-rigth-contant-img6{
+        opacity: 0;
+    }
+    .ko-EducationTheme .ko-main-text-center{
+        height: 22rem;
+    }
+
+}
+

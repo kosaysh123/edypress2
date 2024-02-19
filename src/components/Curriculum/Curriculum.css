@@ -1,0 +1,57 @@
+.ko-accordion-h5{
+    font-family: Exo;
+    font-size: 16px;
+    line-height: 19.2px;
+    color: Black;
+    font-weight: 600;
+    margin-bottom: 0 !important;
+}
+.ko-head-accordion{
+    display: flex;
+    align-items: center !important;
+    justify-content: space-between !important;
+    width: 100%;
+    padding: 0 5px;
+}
+.ko-data-accordion{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.ko-data-accordion-p1,
+.ko-data-accordion-p2{
+font-family: Jost;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #555555;
+margin-bottom: 0 !important;
+}
+.ko-contant-data-line{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 20px 16px 20px;
+}
+.ko-data-left-accordion{
+    display: flex;
+    align-items: center;
+}
+.ko-data-rigth-accordion {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.ko-buttom-private{
+    padding: 3px 12px 3px 12px;
+    border-radius: 8px;
+    background-color: #2580D5;
+    color: white;
+    width: 76px;
+    height: 32px;
+    cursor: pointer;
+}
+.ko-data-rigth-accordion-p{
+    margin-bottom: 0 !important;
+}

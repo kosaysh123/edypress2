@@ -1,0 +1,78 @@
+.ko-LastStart{
+    width: 100%;
+}
+.ko-lastStart-main{
+    width: 100%;
+    height: 15.625rem;
+    border-radius: 1.25rem;
+    background: linear-gradient(93deg,  #B7E1FF 0%, #FEB6B6 100%);
+    display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+padding: 0 3.12rem;
+overflow: hidden;
+}
+.ko-lefte-contante{
+    display: flex;
+align-items: center;
+gap: 2rem;
+}
+.ko-rigth-contant{
+    display: flex;
+align-items: center;
+gap: 2rem;
+}
+.ko-img{
+    display: flex;
+width: 7.5rem;
+height: 7.5rem;
+padding: 0rem 1.875rem;
+justify-content: center;
+align-items: center;
+gap: 0.625rem;
+border-radius: 3.75rem;
+background: var(--White, #FFF);
+}
+.ko-left-contant-h4{
+    color: var(--Black, #000);
+
+/* Heading/h4 */
+font-family: Exo;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 600;
+line-height: 120%; /* 1.5rem */
+text-transform: capitalize;
+}
+.ko-page-img1{
+    left: 14px;
+    top: 50%;
+    width: 11.8125rem;
+height: 10.5625rem;
+flex-shrink: 0;
+opacity: 0.05;
+
+}
+.ko-img1{
+    width: 100%;
+}
+.ko-page-img2{
+    right: 0;
+    top: -20%;
+    width: 25.8125rem;
+    height: 24.9375rem;
+    flex-shrink: 0;
+opacity: 0.05;
+
+}
+.ko-img2{
+    width: 100%;
+}
+@media(max-width:500px){
+    .ko-rigth-contant{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}

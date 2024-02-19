@@ -1,0 +1,351 @@
+a{
+    text-decoration: none;
+}
+.ko-Add-one{
+    width: 80.625rem;
+    /* width: 100%; */
+    height: 20.25rem;
+    display: flex;
+    flex-shrink: 0;
+    background-image: linear-gradient(104deg, #B5FFE7 1.83%, #FDC1C1 98.92%);
+    overflow: hidden;
+    border-radius: 1.25rem;
+    position: relative;
+}
+/* .ko-main-Add-one{
+    width: 100%;
+    position: relative;
+} */
+.ko-left-contat{
+    display: flex;
+    width: 28.125rem;
+    flex-direction: column;
+    align-items: flex-start;
+    /* gap: 1.5rem; */
+    position: absolute;
+left: 3.125rem;
+top: 3.40625rem;
+z-index: 10;
+}
+.ko-left-contat-h5{
+    color: var(--Dark_gray, #555);
+
+/* Heading/h5 */
+font-family: Exo;
+font-size: 1rem;
+font-style: normal;
+font-weight: 600;
+line-height: 120%; /* 1.2rem */
+text-transform: capitalize;
+}
+.ko-left-contat-h2{
+    color: var(--Black, #000);
+
+/* H2 */
+font-family: Exo;
+font-size: 2rem;
+font-style: normal;
+font-weight: 600;
+line-height: 120%; /* 2.4rem */
+text-transform: capitalize;
+margin-bottom: 0;
+}
+.ko-left-contat-p{
+    color: var(--Dark_gray, #555);
+
+/* P */
+font-family: Jost;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 1.6875rem */
+text-align: left;
+margin-top: 1.2rem;
+}
+.ko-main-buttom-page{
+    width: fit-content;
+    display: flex;
+height: 3rem;
+padding: 0.625rem 1.5rem;
+justify-content: center;
+align-items: center;
+gap: 0.625rem;
+border-radius: 1.5rem;
+background: var(--Primary, #FF782D);
+}
+.ko-main-buttom-page-a{
+    color: var(--White, #FFF);
+
+/* a */
+font-family: Jost;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 1.6875rem */
+text-transform: capitalize;
+text-decoration: none;
+}
+/* ///////////////////////////// */
+.ko-secound-main-buttom-page{
+    width: fit-content;
+    display: flex;
+    height: 3rem;
+    padding: 0.625rem 1.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 1.5rem;
+border: 2px solid var(--Primary, #FF782D);
+}
+.ko-secound-main-buttom-page-a{
+    color: var(--Primary, #FF782D);
+
+    /* a */
+    font-family: Jost;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 1.6875rem */
+    text-transform: capitalize;
+}
+/* ////////////////////////// */
+.ko-image-position{
+position: relative;
+height: 100%;
+}
+.ko-image-position .coc1{
+    position: absolute;
+    top :20%;
+    left: calc(100% - 50%);
+    width: 6.625rem;
+    height: 6.625rem;
+    transform: rotate(162deg);
+    flex-shrink: 0;
+    border-radius: 1.25rem;
+    background: #5506FD;
+}
+.ko-image-position .vector-1{
+position: absolute;
+width: 5.07356rem;
+height: 4.22794rem;
+transform: rotate(-5.52deg);
+flex-shrink: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+left: 12%;
+top: 16%;
+}
+/* ******************************** */
+
+.ko-image-position .coc2{
+    position: absolute;
+    top :40%;
+    left: calc(100% - 60%);
+    width: 6rem;
+    height: 6rem;
+    transform: rotate(26deg);
+    flex-shrink: 0;
+    border-radius: 1.25rem;
+background: #8A34CD;
+}
+.ko-image-position .vector-2{
+position: absolute;
+width: 3.6085rem;
+height: 4.57375rem;
+flex-shrink: 0;
+fill: var(--White, #FFF);
+left: 16%;
+top: 16%;
+}
+/* ******************************** */
+.ko-image-position .coc3{
+    position: absolute;
+    top :60%;
+    left: calc(100% - 64%);
+    width: 4.125rem;
+height: 4.125rem;
+flex-shrink: 0;
+border-radius: 1.25rem;
+background: #E71B89;
+}
+.ko-image-position .vector-3{
+position: absolute;
+width: 3.125rem;
+height: 2.4375rem;
+flex-shrink: 0;
+fill: var(--White, #FFF);
+left: 16%;
+top: 16%;
+}
+/* ******************************** */
+.ko-image-position .coc4{
+    position: absolute;
+    top :71%;
+right: 35%;
+width: 4.9375rem;
+height: 4.9375rem;
+transform: rotate(77deg);
+flex-shrink: 0;
+border-radius: 1.25rem;
+background: #37E954;
+}
+.ko-image-position .vector-4{
+position: absolute;
+width: 3.23413rem;
+height: 3.63719rem;
+transform: rotate(-15deg);
+flex-shrink: 0;
+fill: var(--White, #FFF);
+left: 16%;
+top: 16%;
+}
+/* ******************************** */
+.ko-image-position .coc5{
+    position: absolute;
+    top :40%;
+right: 30%;
+width: 4.9375rem;
+height: 4.9375rem;
+transform: rotate(-76deg);
+flex-shrink: 0;
+border-radius: 1.25rem;
+background: #F0D824;
+}
+.ko-image-position .vector-5{
+position: absolute;
+width: 4.05688rem;
+height: 1.683rem;
+transform: rotate(15.188deg);
+flex-shrink: 0;
+fill: var(--White, #FFF);
+left: 10%;
+    top: 34%;
+}
+/* ******************************** */
+.ko-image-position .coc6{
+    position: absolute;
+    top: 21%;
+    right: 23%;
+    width: 6.25rem;
+    height: 6.25rem;
+    transform: rotate(75deg);
+    flex-shrink: 0;
+    border-radius: 1.25rem;
+    background: #34CEFF;
+}
+.ko-image-position .vector-6{
+position: absolute;
+width: 5.0625rem;
+height: 4.1875rem;
+transform: rotate(-69deg);
+flex-shrink: 0;
+fill: var(--White, #FFF);
+left: 7%;
+top: 20%;
+}
+/* ******************************** */
+.ko-image-position .coc7{
+    position: absolute;
+    top: 65%;
+    right: 15%;
+    width: 5.875rem;
+    height: 5.875rem;
+    /* transform: rotate(-160deg); */
+    flex-shrink: 0;
+    border-radius: 1.25rem;
+background: #CB37FF;
+}
+.ko-image-position .vector-7{
+    position: absolute;
+    width: 4.37069rem;
+    height: 2.60175rem;
+    transform: rotate(-0.271deg);
+    fill: var(--White, #FFF);
+    left: 10%;
+    top: 28%;
+}
+/* ******************************** */
+.ko-image-position .coc8{
+    position: absolute;
+    top: 2%;
+    right: 10%;
+    width: 4rem;
+    height: 4rem;
+    transform: rotate(-47deg);
+    flex-shrink: 0;
+    border-radius: 1.25rem;
+opacity: 0.95;
+background: #FFA53C;
+}
+.ko-image-position .vector-8{
+    position: absolute;
+    width: 2.48663rem;
+    height: 2.48975rem;
+    transform: rotate(45deg);
+    flex-shrink: 0;
+    fill: var(--White, #FFF);
+    left: 16%;
+    top: 23%;
+}
+/* ******************************** */
+.ko-image-position .coc9{
+    position: absolute;
+    top: 50%;
+    right: -2%;
+    width: 7.5rem;
+height: 7.5rem;
+transform: rotate(51deg);
+flex-shrink: 0;
+border-radius: 1.25rem;
+opacity: 0.9;
+background: #FF2727;
+}
+.ko-image-position .vector-9{
+    position: absolute;
+    width: 5.5rem;
+    height: 6.0625rem;
+    transform: rotate(-8.519deg);
+    flex-shrink: 0;
+    fill: var(--White, #FFF);
+    left: 16%;
+    top: 5%;
+}
+/* ******************************** */
+
+@media (max-width:992px){
+.ko-image-position{
+/* left: -10px; */
+display: none;
+z-index: -10;
+
+}
+.ko-left-contat-p{
+    width: 60%;
+}
+.ko-Add-one{
+    /* width: 80.625rem; */
+    width: 100%;
+    height: 20.25rem;
+    display: flex;
+    flex-shrink: 0;
+    background-image: linear-gradient(104deg, #B5FFE7 1.83%, #FDC1C1 98.92%);
+    overflow: hidden;
+    border-radius: 1.25rem;
+    position: relative;
+}
+}
+@media (max-width:1210px){
+
+.ko-Add-one{
+    /* width: 80.625rem; */
+    width: 100%;
+    height: 20.25rem;
+    display: flex;
+    flex-shrink: 0;
+    background-image: linear-gradient(104deg, #B5FFE7 1.83%, #FDC1C1 98.92%);
+    overflow: hidden;
+    border-radius: 1.25rem;
+    position: relative;
+}
+}

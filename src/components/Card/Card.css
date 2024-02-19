@@ -1,0 +1,46 @@
+.ko-AllCards .box{
+    display: flex;
+width: 18.75rem;
+padding: 3.125rem 0rem;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 1rem;
+border-radius: 1.25rem;
+background: var(--White_grey, #F5F5F5);
+}
+.ko-AllCards .row{
+    display: flex;
+align-items: flex-start;
+gap: 1.875rem;
+}
+.ko-box-h2{
+    color: var(--Primary, #FF782D);
+
+/* Heading/h2 */
+font-family: Exo;
+font-size: 2rem;
+font-style: normal;
+font-weight: 600;
+line-height: 120%; /* 2.4rem */
+text-transform: capitalize;
+}
+.ko-box-a{
+    color: var(--Black, #000);
+
+/* a */
+text-decoration: none;
+font-family: Jost;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 1.6875rem */
+text-transform: capitalize;
+}
+@media (max-width:767px){
+    .ko-AllCards .box{
+        width: 100%;
+    margin: 20px;
+    }
+
+}

@@ -1,0 +1,14 @@
+.ko-main-CourseSinglePage{
+    display: flex;
+    padding-bottom: 5.625rem;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 5.625rem; */
+}
+.ko-main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    /* width: 100%; */
+}

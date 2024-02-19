@@ -1,0 +1,41 @@
+.ko-CourseCategory-h4{
+    color: var(--Black, #000);
+
+/* H4 */
+font-family: Exo;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 600;
+line-height: 120%; /* 1.5rem */
+text-transform: capitalize;
+}
+.ko-CourseCategory-checkbox-line{
+    display: flex;
+align-items: center;
+gap: 0.25rem;
+align-self: stretch;
+justify-content: space-between;
+width: 20rem;
+}
+.ko-CourseCategory-checkbox-line-info{
+    display: flex;
+align-items: center;
+gap: 0.25rem;
+align-self: stretch;
+}
+.ko-CourseCategory-checkbox-line-info-p{
+    color: var(--Dark_gray, #555);
+    flex: 1 0 0;
+/* P */
+font-family: Jost;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 1.6875rem */
+margin-bottom: 0 !important;
+}
+.ko-CourseCategory-checkbox-line-info-ch{
+    width: 1rem ;
+    height: 1rem;
+    cursor: pointer;
+}

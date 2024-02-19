@@ -1,0 +1,175 @@
+.ko-CoursSingle{
+padding: 3.125rem 0.625rem;
+background: var(--Black, #000);
+margin-bottom: 5rem;
+width: 100%;
+}
+.ko-rigth-img{
+    width: 25.625rem;
+height: 15.625rem;
+border-radius: 1.25rem 1.25rem 0rem 0rem;
+}
+.ko-main-CoursSingle{
+    display: flex;
+    justify-content: space-between;
+}
+.ko-left-contante{
+    display: flex;
+padding-right: 27.5rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 1.25rem;
+}
+.ko-typegraphy{
+    display: flex;
+    align-items: center;
+    
+}
+.ko-typegraphy-a{
+    display: flex;
+padding: 0.5rem 0.75rem;
+justify-content: center;
+align-items: center;
+gap: 0.625rem;
+border-radius: 0.5rem;
+background: var(--Dark_gray, #555);
+
+color: var(--White, #FFF);
+margin-right: 1.25rem;
+
+/* A2 */
+font-family: Jost;
+font-size: 1rem;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 1.5rem */
+text-transform: capitalize;
+text-decoration: none;
+}
+.ko-typegraphy-p1{
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    margin-right: 0.75rem;
+    color: var(--Color-dark-grey, var(--Grey, #9D9D9D));
+
+/* P */
+font-family: Jost;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 1.6875rem */
+}
+.ko-typegraphy-p2{
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    color: var(--Color-dark-grey, var(--White, #FFF));
+
+    /* P */
+    font-family: Jost;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.ko-left-contant-h1{
+    color: var(--White, #FFF);
+width: 100%;
+/* Heading/h1 */
+font-family: Exo;
+font-size: 2.25rem;
+font-style: normal;
+font-weight: 600;
+line-height: 120%; /* 2.7rem */
+text-transform: capitalize;
+}
+.ko-rigth{
+    /* flex-basis: 50%; */
+    /* position: relative; */
+    left: 65%;
+    position: absolute;
+    border-radius: 1.25rem;
+border: 1px solid var(--Light_grey, #EAEAEA);
+background: var(--White, #FFF);
+
+}
+@media(max-width:1125px){
+    .ko-rigth{
+        position: static;
+        margin-bottom: 3rem;
+    }
+    .ko-main-CoursSingle{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .ko-left-contante{
+        align-items: center;
+        padding-right: 0;
+    }
+    .ko-info-course{
+        flex-wrap: wrap;
+    }
+}
+.ko-info-course{
+    display: flex;
+align-items: flex-start;
+gap: 1.5rem;
+}
+.ko-info-course-time,
+.ko-info-course-Students,
+.ko-info-course-levels,
+.ko-info-course-Lessons,
+.ko-info-course-Quizzes
+{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.ko-info-course-p{
+    margin: 0 !important;
+    color: #9D9D9D;
+}
+.ko-footer-img{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+justify-content: center;
+align-items: center;
+gap: 1.875rem;
+}
+.ko-text{
+    display: flex;
+align-items: center;
+gap: 0.5rem;
+}
+.ko-footer-img-p{
+    color: #9D9D9D;
+    margin: 0 !important;
+}
+.ko-footer-img-h4{
+color: #F51A1A;
+margin: 0 !important;
+}
+.ko-buttom{
+    display: flex;
+height: 3rem;
+padding: 0.625rem 1.5rem;
+justify-content: center;
+align-items: center;
+gap: 0.625rem;
+border-radius: 1.5rem;
+background: var(--Primary, #FF782D);
+}
+.ko-buttom-a{
+    color: var(--White, #FFF);
+
+/* a */
+font-family: Jost;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 1.6875rem */
+text-transform: capitalize;
+text-decoration: none;
+}
